@@ -1,0 +1,32 @@
+.block {
+    margin: auto;
+    margin-top: 20%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.nour {
+    margin-left: -10%;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:996px) {
+    .img_col {
+        position: relative;
+        left: 25%;
+    }
+    .nour {
+        margin-top: -10% !important;
+        border-radius: 20px;
+    }
+
+}
